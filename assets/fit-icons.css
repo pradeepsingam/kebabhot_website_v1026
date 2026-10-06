@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'fitin-icons';
+    src: url('../fonts/fit-icons/fit-icons.eot?jtpl75');
+    src: url('../fonts/fit-icons/fit-icons.eot?jtpl75#iefix') format('embedded-opentype'), 
+    url('../fonts/fit-icons/fit-icons.ttf?jtpl75') format('truetype'), 
+    url('../fonts/fit-icons/fit-icons.woff?jtpl75') format('woff'), 
+    url('../fonts/fit-icons/fit-icons.svg?jtpl75#fitin-icons') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" fit-"],
+[class^=fit-] {
+    font-family: 'fitin-icons' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fit-drink:before {
+  content: "\e900";
+}
+.fit-orange-juice:before {
+  content: "\e901";
+}
+.fit-orange-juice-1:before {
+  content: "\e902";
+}
+.fit-orange-juice-2:before {
+  content: "\e903";
+}
+.fit-pineapple:before {
+  content: "\e904";
+}
+.fit-fruit:before {
+  content: "\e905";
+}
+.fit-juice:before {
+  content: "\e906";
+}
+.fit-juice-1:before {
+  content: "\e907";
+}
+.fit-juice-2:before {
+  content: "\e908";
+}
+.fit-juice-3:before {
+  content: "\e909";
+}
+.fit-juice-bottle:before {
+  content: "\e90a";
+}
+.fit-strawberry-juice:before {
+  content: "\e90b";
+}
+.fit-squeezer:before {
+  content: "\e90c";
+}
+.fit-juicer:before {
+  content: "\e90d";
+}
+.fit-juicer-1:before {
+  content: "\e90e";
+}
+.fit-juicer-2:before {
+  content: "\e90f";
+}
+.fit-fruit-juice:before {
+  content: "\e910";
+}
+.fit-juicer-3:before {
+  content: "\e911";
+}
+.fit-kitchen:before {
+  content: "\e912";
+}
+.fit-grape:before {
+  content: "\e913";
+}
+.fit-strawberry:before {
+  content: "\e914";
+}
+.fit-watermelon:before {
+  content: "\e915";
+}
+.fit-bananas:before {
+  content: "\e916";
+}
+.fit-dragon-fruit:before {
+  content: "\e917";
+}
+.fit-cherries:before {
+  content: "\e918";
+}
+.fit-watermelon-1:before {
+  content: "\e919";
+}
+.fit-pineapple-1:before {
+  content: "\e91a";
+}
+.fit-grapes:before {
+  content: "\e91b";
+}
+.fit-strawberry-1:before {
+  content: "\e91c";
+}
+.fit-strawberry-2:before {
+  content: "\e91d";
+}
+.fit-lemon:before {
+  content: "\e91e";
+}
+.fit-strawberry-3:before {
+  content: "\e91f";
+}
+.fit-pomegranate:before {
+  content: "\e920";
+}
+.fit-strawberry-4:before {
+  content: "\e921";
+}
+.fit-kiwi:before {
+  content: "\e922";
+}
+.fit-fruit-shop:before {
+  content: "\e923";
+}
+.fit-watermelon-2:before {
+  content: "\e924";
+}
+.fit-punch:before {
+  content: "\e925";
+}
+.fit-ice-cream:before {
+  content: "\e926";
+}
+.fit-ice-cream-1:before {
+  content: "\e927";
+}
+.fit-ice-cream-2:before {
+  content: "\e928";
+}
+.fit-ice-cream-3:before {
+  content: "\e929";
+}
+.fit-ice-cream-4:before {
+  content: "\e92a";
+}
+.fit-ice-cream-5:before {
+  content: "\e92b";
+}
+.fit-ice-cream-6:before {
+  content: "\e92c";
+}
+.fit-ice-cream-7:before {
+  content: "\e92d";
+}
+.fit-ice-cream-cup:before {
+  content: "\e92e";
+}
+.fit-ice-cream-8:before {
+  content: "\e92f";
+}
+.fit-popsicle:before {
+  content: "\e930";
+}
+.fit-ice-cream-9:before {
+  content: "\e931";
+}
+.fit-ice-cream-10:before {
+  content: "\e932";
+}
+.fit-ice-cream-11:before {
+  content: "\e933";
+}
+.fit-ice-cream-12:before {
+  content: "\e934";
+}
+.fit-ice-cream-van:before {
+  content: "\e935";
+}
+.fit-ice-cream-cup-1:before {
+  content: "\e936";
+}
+.fit-ice-cream-truck:before {
+  content: "\e937";
+}
+.fit-ice-cream-shop:before {
+  content: "\e938";
+}
+.fit-ice-cream-truck-1:before {
+  content: "\e939";
+}
+.fit-ice-cream-cone:before {
+  content: "\e93a";
+}
+.fit-ice-cream-cart:before {
+  content: "\e93b";
+}
+.fit-shaved-ice:before {
+  content: "\e93c";
+}
+.fit-freezer:before {
+  content: "\e93d";
+}
+.fit-eskimo:before {
+  content: "\e93e";
+}
+.fit-ice-cream-13:before {
+  content: "\e93f";
+}
+.fit-cart:before {
+  content: "\e940";
+}
+.fit-ice-cream-14:before {
+  content: "\e941";
+}
+.fit-ice-cream-cart-1:before {
+  content: "\e942";
+}
+.fit-ice-cream-15:before {
+  content: "\e943";
+}
+.fit-ice-cream-16:before {
+  content: "\e944";
+}

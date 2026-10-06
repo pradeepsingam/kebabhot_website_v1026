@@ -1,0 +1,170 @@
+/* offline font fallbacks (same families as the original page) */
+@font-face{font-family:"Bangers";src:local("Bangers"),url(../fonts/bangers.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Merriweather";src:local("Merriweather"),url(../fonts/merriweather.woff2) format("woff2");font-weight:300 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Merriweather";src:local("Merriweather Italic"),url(../fonts/merriweather-italic.woff2) format("woff2");font-weight:300 900;font-style:italic;font-display:swap}
+@font-face{font-family:"Roboto";src:local("Roboto"),url(../fonts/roboto.woff2) format("woff2");font-weight:100 900;font-display:swap}
+
+/* Elementor lazy-load rules from the original <head> */
+.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none!important}
+@media screen and (max-height:1024px){.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none!important}}
+@media screen and (max-height:640px){.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) *{background-image:none!important}}
+
+/* wave divider pattern (inline style var in the original) */
+.elementor-divider[data-wave]{--divider-pattern-url:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' overflow='visible' height='100%25' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3.5' stroke-linecap='square' stroke-miterlimit='10'%3E%3Cpath d='M0,6c6,0,6,13,12,13S18,6,24,6'/%3E%3C/svg%3E")}
+
+/* theme colour block (Customizer, #e9e149) – rules used by this page */
+.bg-primary,.xptf-btn,.xp-heading>span.is_highlight,#back-to-top,.elementor-social-icons-wrapper a.elementor-social-icon{background:#e9e149}
+.xptf-btn.xptf-btn-border,.xp-heading>span{color:#e9e149}
+.xp-text-marquee .content-wrapper .icon i,.xp-text-marquee .content-wrapper-2 .icon i,.hl-text,.food-price-menu .menu-item .content .title_priccce .price,.tab-titles .title-item a.tab-active,.tab-titles .title-item a:hover,.main-navigation>ul>li.current_page_item>a{color:#e9e149}
+.main-navigation>ul>li:hover>a,.elementor-widget-icon.elementor-view-default .elementor-icon{color:#e9e149!important}
+.border_clr.elementor-widget-divider{--divider-color:#e9e149}
+.xptf-btn.xptf-btn-border,.xp-heading>span.is_highlight{border-color:#e9e149}
+.icon-box .icon-main svg,.xp-counter-2 svg{fill:#e9e149}
+.main-navigation>ul>li.current_page_item>a{color:#ca0c23!important}
+
+/* wp-custom-css from the original */
+.elementor-icon{display:flex!important}
+.main-navigation>ul>li::before{display:none}
+.main-navigation>ul>li>a{padding:0}
+.site-header{background:transparent}
+.xp-heading>span.is_highlight{padding:3px 20px;border:0;border-radius:0;clip-path:polygon(100% 0%,calc(100% - .75rem) 50%,100% 100%,0 100%,.75rem 50%,0 0)}
+.side-panel .side-panel-close{background-color:red}
+#back-to-top{background-color:yellow}
+#back-to-top.show{bottom:70px}
+#back-to-top .xp-webicon-left-arrow-2{color:red}
+@media(min-width:769px){#back-to-top.show{bottom:30px}}
+
+/* mobile bottom bar (plugin inline css) */
+.bnav_bottom_nav_wrapper{display:none!important;background-color:#dd3333;border-radius:10px;bottom:-10px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.bnav_main_menu_container ul.bnav_main_menu{background-color:rgba(221,51,51,.95);padding:15px 5px;justify-content:center}
+.bnav_bottom_nav_wrapper ul li a .text_wrapper{color:#fff;font-size:14px;line-height:17px;letter-spacing:.48px}
+.bnav_bottom_nav_wrapper ul li a .icon_wrapper{margin:0 0 10px}
+.bnav_bottom_nav_wrapper ul li a .icon_wrapper i{color:#fff;font-size:22px}
+.bnav_bottom_nav_wrapper ul li.current-menu-item a .icon_wrapper i{color:#e9e149}
+.bnav_main_menu_container .bnav_menu_items .bnav_flex{flex-direction:column}
+.bnav_bottom_nav_wrapper ul.bnav_main_menu li a .icon_wrapper.normal{display:flex}
+.bnav_bottom_nav_wrapper ul.bnav_main_menu li.current-menu-item .icon_wrapper.normal{display:none}
+@media(max-width:768px){body{padding-bottom:100px!important}.bnav_bottom_nav_wrapper{display:block!important}}
+
+/* cookie banner (CookieYes, values from the original) */
+.cky-hide{display:none}
+.cky-overlay{background:#000;opacity:.4;position:fixed;inset:0;z-index:99999999}
+.cky-consent-container{position:fixed;width:440px;box-sizing:border-box;z-index:9999999;border-radius:6px;font-family:"Open Sans",Arial,sans-serif}
+.cky-box-bottom-left{bottom:40px;left:40px}
+.cky-consent-container.cky-hide{display:none}
+.cky-consent-container .cky-consent-bar{background:#fff;border:1px solid;padding:20px 26px;box-shadow:0 -1px 10px 0 #acabab4d;border-radius:6px}
+.cky-notice .cky-title{color:#212121;font-weight:700;font-size:18px;line-height:24px;margin:0 0 12px}
+.cky-notice-des{color:#212121;font-size:14px;line-height:24px;font-weight:400}
+.cky-notice-des p{margin:0}
+.cky-notice-btn-wrapper{display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap;margin-top:16px}
+.cky-btn{flex:auto;max-width:100%;font-size:14px;font-family:inherit;line-height:24px;padding:8px;font-weight:500;margin:0 8px 0 0;border-radius:2px;cursor:pointer;text-align:center;text-transform:none;min-height:0;box-shadow:none;text-shadow:none}
+.cky-btn:hover{opacity:.8}
+.cky-btn:last-child{margin-right:0}
+.cky-btn-customize,.cky-btn-reject,.cky-btn-preferences{color:#1863dc;background:transparent;border:2px solid #1863dc}
+.cky-btn-accept{background:#1863dc;color:#fff;border:2px solid #1863dc}
+.cky-modal{display:none;box-shadow:0 32px 68px rgba(0,0,0,.3);position:fixed;max-width:100%;background:#fff;top:50%;left:50%;transform:translate(-50%,-50%);border-radius:6px;z-index:999999999;color:#212121;font-family:"Open Sans",Arial,sans-serif}
+.cky-modal.cky-modal-open{display:flex}
+.cky-preference-center{max-height:79vh;overflow:hidden;width:845px;max-width:calc(100vw - 16px);flex:1 1 0;display:flex;flex-direction:column;border-radius:6px}
+.cky-preference-header{display:flex;align-items:center;justify-content:space-between;padding:22px 24px;border-bottom:1px solid #f4f4f4}
+.cky-preference-title{font-size:18px;font-weight:700;line-height:24px}
+.cky-btn-close{background:none;border:0;font-size:24px;cursor:pointer;line-height:1}
+.cky-preference-body-wrapper{padding:0 24px;flex:1;overflow:auto}
+.cky-preference-content-wrapper{font-size:14px;line-height:24px;padding:12px 0;border-bottom:1px solid #f4f4f4}
+.cky-accordion{border-bottom:1px solid #f4f4f4;padding:10px 0}
+.cky-accordion h4{margin:0;font-size:16px;font-weight:700;display:flex;justify-content:space-between}
+.cky-accordion h4 span{color:#008000;font-size:14px;font-weight:600}
+.cky-accordion p{font-size:14px;line-height:24px;margin:10px 0 6px}
+.cky-prefrence-btn-wrapper{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;padding:22px 24px;border-top:1px solid #f4f4f4}
+.cky-btn-revisit-wrapper{display:flex;align-items:center;justify-content:center;width:45px;height:45px;border-radius:50%;position:fixed;z-index:999999;cursor:pointer;bottom:15px;left:15px}
+.cky-btn-revisit{background:none;border:0;padding:0;cursor:pointer}.cky-btn-revisit img{height:30px;width:30px}
+.cky-revisit-hide{display:none}
+@media(max-width:576px){.cky-box-bottom-left{bottom:0;left:0}}
+@media(max-width:440px){.cky-consent-container{width:100%}.cky-consent-container .cky-consent-bar{padding:20px 0}.cky-notice .cky-title,.cky-notice-des,.cky-notice-btn-wrapper{padding:0 24px}.cky-notice-btn-wrapper{flex-direction:column;margin-top:0}.cky-btn{width:100%;margin:10px 0 0}.cky-notice-btn-wrapper .cky-btn-accept{order:1;margin-top:16px}.cky-notice-btn-wrapper .cky-btn-customize{order:2}.cky-notice-btn-wrapper .cky-btn-reject{order:3}}
+
+/* feast section: original remote photo first, local copy as offline fallback */
+.elementor-7167 .elementor-element.elementor-element-6657ea7:not(.elementor-motion-effects-element-type-background){background-image:url("https://kebabhot.no/wp-content/uploads/2025/02/Untitled-design-2.png"),url("../img/bg-pizza.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover}
+
+/* ring text fits the full circle like the original */
+.elementor-element-6e5d877 .e-text-path{position:relative;width:150px;height:173px}
+.elementor-element-6e5d877 .e-text-path svg{overflow:visible;position:absolute;left:-26px;top:-26px;max-width:none!important;width:202px!important;height:202px!important;margin:0;display:block}
+.elementor-element-6e5d877 .e-text-path text{font-size:12.6px!important;letter-spacing:0!important;fill:#fff;font-family:Merriweather,serif;font-weight:400}
+
+/* SVG icon replacements */
+i.kh-done:before{display:none!important;content:none!important}
+i.kh-done{display:inline-flex;align-items:center;justify-content:center;line-height:1}
+.kh-ic{width:1em;height:1em;display:block;flex:none}
+.xp-text-marquee .icon i{color:#fff}
+.xp-text-marquee .icon i .kh-ic{width:1.05em;height:1.05em}
+.elementor-icon i .kh-ic,.tab-titles .icon .kh-ic{width:1em;height:1em}
+#back-to-top i,.xptf-cta-icons i,.mmenu-toggle i{display:inline-flex}
+#back-to-top .kh-ic{width:20px;height:20px}
+
+/* theme rotated the glyph; our SVG already points up */
+#back-to-top,#back-to-top i{-webkit-transform:none!important;transform:none!important}
+
+/* ribbon band */
+.elementor-7167 .elementor-element.elementor-element-54f8091:not(.elementor-motion-effects-element-type-background),
+.elementor-7167 .elementor-element.elementor-element-54f8091 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#111110 !important;}
+.elementor-element-54f8091 .xp-text-marquee .icon,
+.elementor-element-54f8091 .xp-text-marquee .icon i,
+.elementor-element-54f8091 .xp-text-marquee .icon svg{color:#000000 !important;}
+
+/* remaining black behind the tilted bands -> yellow */
+.elementor-7167 .elementor-element.elementor-element-39a94a3:not(.elementor-motion-effects-element-type-background),
+.elementor-7167 .elementor-element.elementor-element-39a94a3 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFEB3B !important;}
+.elementor-7167 .elementor-element.elementor-element-39a94a3::before{background-image:none !important;background-color:transparent !important;}
+
+/* ===== LOADING SCREEN ===== */
+html.kh-loading,html.kh-loading body{overflow:hidden !important;}
+#kh-loader{position:fixed;inset:0;z-index:2147483647;background:#0e1216;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;transition:opacity .6s ease,visibility .6s ease;}
+#kh-loader.kh-hide{opacity:0;visibility:hidden;}
+#kh-loader .kh-l-logo{position:relative;width:clamp(150px,13vw,230px);}
+#kh-loader .kh-l-logo img{display:block;width:100%;height:auto;}
+#kh-loader .kh-l-dim{opacity:.2;}
+#kh-loader .kh-l-fill{position:absolute;left:0;top:0;clip-path:inset(100% 0 0 0);-webkit-clip-path:inset(100% 0 0 0);}
+#kh-loader .kh-l-pct{color:#fff;font:400 13px/1 Roboto,Arial,sans-serif;letter-spacing:.14em;}
+
+/* two-mushroom ribbon icon */
+.elementor-7167 .elementor-element .xp-text-marquee .icon svg.kh-mush{width:120px;height:92px;}
+.elementor-7167 .elementor-element .xp-text-marquee .icon svg.kh-mush path{fill:none !important;}
+.xp-text-marquee .icon i.cg-Mushrooms{width:auto !important;height:auto !important;overflow:visible !important;}
+i.cg-Mushrooms{-webkit-mask-image:none !important;mask-image:none !important;background:none !important;-webkit-mask:none !important;mask:none !important;}
+
+/* custom ribbon icons (your two images) */
+i.cg-Mushrooms,i.cg-Pizza{-webkit-mask:none !important;mask:none !important;-webkit-mask-image:none !important;mask-image:none !important;background:none !important;width:auto !important;height:auto !important;overflow:visible !important;}
+.xp-text-marquee .icon img.kh-myicon{display:block;width:auto;height:84px;}
+
+/* header: translucent dark bar (like the reference video) that shrinks on scroll */
+.elementor-7424 .elementor-element.elementor-element-3c0ab91,
+.elementor-7424 .elementor-element.elementor-element-3c0ab91.is-fixed,
+.elementor-7424 .elementor-element.elementor-element-3c0ab91.is-fixed.is-stuck,
+.elementor-7424 .elementor-element.elementor-element-171a9f1b,
+.elementor-7424 .elementor-element.elementor-element-171a9f1b.is-fixed.is-stuck{
+  background:rgba(2,1,1,.73)!important;
+  -webkit-backdrop-filter:blur(8px)!important;backdrop-filter:blur(8px)!important;
+  transition:padding .3s ease,background .3s ease,box-shadow .3s ease}
+.site-header .e-con-inner{transition:padding .3s ease}
+.site-header .the-logo img{transition:width .3s ease,height .3s ease}
+.main-navigation>ul>li>a,.panel-btn i,.mmenu-toggle i{transition:font-size .3s ease}
+
+/* shrunk state (added by js/site.js after scrolling) */
+.site-header.kh-shrunk .e-con-inner{padding-top:0!important;padding-bottom:0!important}
+.site-header.kh-shrunk .the-logo img{width:52px!important;height:52px!important}
+.site-header.kh-shrunk .main-navigation>ul>li>a{font-size:.92em}
+.site-header.kh-shrunk .elementor-element.is-fixed{box-shadow:0 2px 12px rgba(0,0,0,.35)}
+
+/* scrolling bands: one seamless loop, no overlapping words */
+.xp-text-marquee.kh-marq{display:block;overflow:hidden;direction:ltr}
+.xp-text-marquee.kh-marq .spacing,.xp-text-marquee.kh-marq .content-wrapper-2{display:none!important}
+.xp-text-marquee.kh-marq .content-wrapper{width:max-content!important;display:flex;align-items:center;white-space:nowrap;animation:none!important;will-change:transform}
+.xp-text-marquee.kh-marq .content-wrapper .text{width:auto!important;flex:none;display:inline-block;padding-right:.35em}
+.xp-text-marquee.kh-marq .content-wrapper .icon{flex:none}
+.xp-text-marquee.kh-marq.direction-rtl .content-wrapper{animation:kh-marq-left 60s linear infinite!important}
+.xp-text-marquee.kh-marq.direction-ltr .content-wrapper{animation:kh-marq-right 60s linear infinite!important}
+@keyframes kh-marq-left{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes kh-marq-right{from{transform:translateX(-50%)}to{transform:translateX(0)}}
+@media (prefers-reduced-motion:reduce){.xp-text-marquee.kh-marq .content-wrapper{animation:none!important}}
+
+/* feast section: pizza line icon in the circle badge (same look as the live site) */
+.elementor-element-3e0f911 .elementor-icon{display:block;line-height:0;color:#dede1e}
+.elementor-element-3e0f911 svg.kh-pz-ring{width:48px;height:48px;display:block;margin:0 auto;fill:none!important;stroke:#dede1e}

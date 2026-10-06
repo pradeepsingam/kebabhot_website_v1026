@@ -1,0 +1,181 @@
+@font-face {
+    font-family: core-icons;
+    src: url('../fonts/core-icons/core-icons.eot?geji0r');
+    src: url('../fonts/core-icons/core-icons.eot?geji0r#iefix') format('embedded-opentype'), url('../fonts/core-icons/core-icons.ttf?geji0r') format('truetype'), url('../fonts/core-icons/core-icons.woff?geji0r') format('woff'), url('../fonts/core-icons/core-icons.svg?geji0r#core-icons') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block
+}
+
+[class*=" ci-"],
+[class^=ci-] {
+    font-family: core-icons !important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ci-phone-book-telephone-contacts-agenda-contact-person-communications-education:before {
+  content: "\e92d";
+}
+.ci-phone-telephone-call-call-communications-speech-bubble:before {
+  content: "\e92e";
+}
+.ci-printer-print-printing-electronics-ink-paper-technology:before {
+  content: "\e92f";
+}
+.ci-worldwide-global-internet-multi-channel-globe-grid-network-communications-networking-world-connectio:before {
+  content: "\e930";
+}
+.ci-hours-time-and-date-circular-arrow-counterclockwise-rotate-time:before {
+  content: "\e931";
+}
+.ci-calendar-time-and-date-schedule-administration-date-calendars-organization-interface-time:before {
+  content: "\e932";
+}
+.ci-call-phone-clock-communications-time-24-hours:before {
+  content: "\e933";
+}
+.ci-chat-forum-communication-topics-conversation-communications-speech-bubble-multimedia:before {
+  content: "\e934";
+}
+.ci-cake:before {
+  content: "\e900";
+}
+.ci-coffee_3:before {
+  content: "\e901";
+}
+.ci-coffee_4:before {
+  content: "\e902";
+}
+.ci-coffee_house_2:before {
+  content: "\e903";
+}
+.ci-cream:before {
+  content: "\e904";
+}
+.ci-cup:before {
+  content: "\e905";
+}
+.ci-Dinner:before {
+  content: "\e906";
+}
+.ci-food-delivery:before {
+  content: "\e907";
+}
+.ci-food-store:before {
+  content: "\e908";
+}
+.ci-Group-3:before {
+  content: "\e909";
+}
+.ci-Group-4:before {
+  content: "\e90a";
+}
+.ci-Group-6:before {
+  content: "\e90b";
+}
+.ci-Group-7:before {
+  content: "\e90c";
+}
+.ci-Group-15:before {
+  content: "\e90d";
+}
+.ci-Group-19:before {
+  content: "\e90e";
+}
+.ci-Group-20:before {
+  content: "\e90f";
+}
+.ci-Group-22:before {
+  content: "\e910";
+}
+.ci-Group-25:before {
+  content: "\e911";
+}
+.ci-Group-33:before {
+  content: "\e912";
+}
+.ci-Group-34:before {
+  content: "\e913";
+}
+.ci-Group-37:before {
+  content: "\e914";
+}
+.ci-Group-40:before {
+  content: "\e915";
+}
+.ci-Group-41:before {
+  content: "\e916";
+}
+.ci-hamburger:before {
+  content: "\e917";
+}
+.ci-home-delivery:before {
+  content: "\e918";
+}
+.ci-Ice-Cream:before {
+  content: "\e919";
+}
+.ci-icecream_2:before {
+  content: "\e91a";
+}
+.ci-jelly:before {
+  content: "\e91b";
+}
+.ci-kruassan:before {
+  content: "\e91c";
+}
+.ci-order-food:before {
+  content: "\e91d";
+}
+.ci-order:before {
+  content: "\e91e";
+}
+.ci-pancake:before {
+  content: "\e91f";
+}
+.ci-Path-94:before {
+  content: "\e920";
+}
+.ci-Path-114:before {
+  content: "\e921";
+}
+.ci-Path-162:before {
+  content: "\e922";
+}
+.ci-Path-163:before {
+  content: "\e923";
+}
+.ci-ransel-bag:before {
+  content: "\e924";
+}
+.ci-Restaurant:before {
+  content: "\e925";
+}
+.ci-Sign-Board:before {
+  content: "\e926";
+}
+.ci-Skewer:before {
+  content: "\e927";
+}
+.ci-Slice-Pizza:before {
+  content: "\e928";
+}
+.ci-tea_2:before {
+  content: "\e929";
+}
+.ci-waiter:before {
+  content: "\e92a";
+}
+.ci-waitress:before {
+  content: "\e92b";
+}
+.ci-wi_fi:before {
+  content: "\e92c";
+}
